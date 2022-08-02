@@ -12,5 +12,6 @@ let package = Package(
     ],
     targets: [     
         .target(name: "TouchDraw", path: "Sources"),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
